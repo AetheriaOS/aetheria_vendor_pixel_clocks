@@ -4,7 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifeq ($(WITH_GMS),true)
 
 # Inherit from the proprietary version
 $(call inherit-product, vendor/pixel/clocks/common/common-vendor.mk)
@@ -12,4 +11,3 @@ $(call inherit-product, vendor/pixel/clocks/common/common-vendor.mk)
 # Overlay
 PRODUCT_PACKAGES += SystemUIResPixelClocks
 
-endif
